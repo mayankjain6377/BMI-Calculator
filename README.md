@@ -1,6 +1,6 @@
 # BMI Calculator
 
-![BMI Calculator]("BMI image.png")  <!-- 
+![BMI Calculator](https://media.istockphoto.com/id/1408944693/vector/indicator-bmi-body-mass-index-and-fitness-exercise-vector-illustration.jpg?s=612x612&w=0&k=20&c=y_fjHVA2GzJE03O7pabXY7nclrg6w2_nepbqR30KO70=)  <!-- 
 
 ## 📄 Description
 The Body Mass Index (BMI) Calculator is a tool that helps estimate an individual's body fat based on their height and weight. This project includes a simple application that calculates BMI and provides a health categorization based on the calculated value.
