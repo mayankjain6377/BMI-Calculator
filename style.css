@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c6d3ae;
+}
+.heading{
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.enter{
+    margin-bottom: 20px;
+    margin-top: -10px;
+    padding: 5px;
+}
+.text
+{
+    padding: 15px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #888484;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+.calculate{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.grand-parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.table-heading
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.table-parent
+{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.flex{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.parent{
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    background-color: #78b575;
+    margin-left: 50px;
+}
+
+.result{
+    width: 300px;
+    padding: 8px 8px;
+    margin-top: 7px;
+margin-left: 10px;
+font-size: 1rem;
+    background-color: #78b575;
+
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    /* background-color: #f2f2f2; */
+    background-color: #78b575;
+  }
+  @media screen and (max-width: 600px)
+  {
+.grand-parent{
+    margin-left: -100px;
+}
+.parent{
+    height: 420px;
+}
+.result{
+    margin-top: 10px;
+}
+.table-parent{
+    margin-left: -45px;
+    margin-top: -100px;
+}
+  }
